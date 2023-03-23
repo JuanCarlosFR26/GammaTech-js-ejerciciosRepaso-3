@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.container .input-container {
+    border: 1px solid grey;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.container .input-container input {
+    width: 25%;
+    height: 38px;
+    padding: 12px;
+}
+
+.container .input-container #buttons button {
+    width: 80px;
+    height: 38px;
+    margin: 12px;
+}
+
+#list {
+    width: 600px;
+    margin: auto;
+    font-size: 30px;
+}
